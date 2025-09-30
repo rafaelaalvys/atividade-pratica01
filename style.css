@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    gap: 180px;
+}
+.logotipo {
+    width: 80px;
+}
+.lista-header ul {
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    gap: 20px;
+    list-style-type: none;
+}
+.lista-header li {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.titulo-header {
+    font-size: 20px;
+}
+.sessao-01 {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     background-color: #ffe6ff;
+}
+.paragrafo-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.paragrafo-header p {
+    font-size: 20px;
+    margin-left: 20px;
+}

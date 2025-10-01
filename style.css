@@ -2,24 +2,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: top;
-    gap: 180px;
+    gap: 260px;
 }
+
 .logotipo {
     width: 80px;
 }
+
 .lista-header ul {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: start;
     gap: 20px;
     list-style-type: none;
 }
+
 .lista-header li {
     font-size: 20px;
     margin-top: 30px;
@@ -28,18 +32,119 @@ header {
 .titulo-header {
     font-size: 20px;
 }
+
 .sessao-01 {
-     display: flex;
-     justify-content: start;
-     align-items: center;
-     background-color: #ffe6ff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(imagens/cortar-mulher-com-flor-falando-no-smartphone.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
 }
-.paragrafo-header h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    margin-left: 20px;
+
+.paragrafo-header h2 {
+    font-size: 100px;
+    margin-left: 40px;
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.103);
 }
+
 .paragrafo-header p {
     font-size: 20px;
     margin-left: 20px;
+    color: rgb(68, 18, 18);
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.sessao-02{
+    background-color: #FFE5AE;
+    height: 930px;
+}
+
+.sessao-02 p {
+    margin-left: 560px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sessao-02 hr {
+    width: 1000px;
+    border: 1px solid #000;
+}
+
+.div-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 350px;
+    margin-left: 510px;
+    gap: 100px;
+}
+
+.divs-01 {
+    width: 240px;
+    height: 340px;
+}
+
+.divs-01 img {
+    width: 300px;
+    height: 300px;
+}
+
+.divs-01 h3 {
+    font-size: 15px;
+}
+
+.div-geral button {
+    border-radius: 5px;
+    color: white;
+    background-color: #FC1600;
+    padding: 6px;
+}
+
+.div-geral-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 260px;
+    height: 350px;
+    margin-left: 510px;
+    gap: 100px;
+}
+
+.divs-2 {
+    width: 240px;
+    height: 340px;
+}
+
+.divs-2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.divs-2 h3 {
+    font-size: 15px;
+}
+
+.div-geral-02 button {
+    border-radius: 5px;
+    color: white;
+    background-color: #FC1600;
+    padding: 6px;
+}
+
+footer {
+    background-color:grey;
+    height: 100px;
+    margin-top: 60px;
 }

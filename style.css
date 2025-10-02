@@ -10,6 +10,7 @@ header {
     justify-content: flex-start;
     align-items: top;
     gap: 260px;
+    background-color: #7e0a7e;
 }
 
 .logotipo {
@@ -20,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 20px;
+    gap: 15px;
     list-style-type: none;
 }
 
@@ -29,19 +30,10 @@ header {
     margin-top: 30px;
 }
 
+
 .titulo-header {
     font-size: 20px;
-}
-
-.sessao-01 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-image: url(imagens/cortar-mulher-com-flor-falando-no-smartphone.jpg);
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 550px;
+    color: black;
 }
 
 .paragrafo-header h2 {
@@ -57,15 +49,28 @@ header {
 .paragrafo-header p {
     font-size: 20px;
     margin-left: 20px;
-    color: rgb(68, 18, 18);
+    color: rgb(255, 255, 255);
+    background-color: #0000002c;
     font-family: "Domine", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
+.sessao-01 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(imagens/cortar-mulher-com-flor-falando-no-smartphone.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+
 .sessao-02{
-    background-color: #FFE5AE;
+    background-color: #f8f8f8;
     height: 930px;
 }
 
@@ -86,13 +91,14 @@ header {
     align-items: center;
     width: 260px;
     height: 350px;
-    margin-left: 510px;
-    gap: 100px;
+    margin-left: 540px;
+    gap: 40px;
+    margin-top: 60px;
 }
 
 .divs-01 {
-    width: 240px;
-    height: 340px;
+    width: 300px;
+    height: 400px;
 }
 
 .divs-01 img {
@@ -118,13 +124,13 @@ header {
     margin-top: 60px;
     width: 260px;
     height: 350px;
-    margin-left: 510px;
-    gap: 100px;
+    margin-left: 540px;
+    gap: 40px;
 }
 
 .divs-2 {
-    width: 240px;
-    height: 340px;
+    width: 300px;
+    height: 400px;
 }
 
 .divs-2 img {
@@ -144,7 +150,20 @@ header {
 }
 
 footer {
-    background-color:grey;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
     height: 100px;
     margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs-01:hover {  
+    box-shadow: 10px 15px 15px grey;
+}
+
+.divs-2:hover {  
+    box-shadow: 10px 15px 15px grey;
 }

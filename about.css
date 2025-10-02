@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    gap: 240px;
+    background-color: #7e017e;
+}
+
+.logotipo {
+    width: 80px;
+}
+
+.lista-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.lista-header li {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.titulo-header {
+    font-size: 20px;
+}
+
+.texto-sessao-01 h2 {
+    font-size: 30px;
+}
+
+.texto-sessao-01 p {
+    font-size: 20px;
+    line-height: 25px
+}
+
+
+
+
+
+
+.texto-sessao-02 h2 {
+    font-size: 30px;
+}
+
+.texto-sessao-02 p {
+    font-size: 20px;
+    line-height:30px
+}

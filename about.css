@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#f5f5dc;
 }
 
 header {
@@ -94,7 +93,7 @@ width: 300px;
 
 .texto-sessao-02 p {
     font-size:20px;
-    line-height:24px;
+    line-height:20px;
     padding:20px;
 }
 
@@ -102,7 +101,7 @@ width: 300px;
 display: flex;
 justify-content: start;
 flex-direction: column;
-margin-left: 20px;
+margin-left: 24px;
 }
 
 footer {

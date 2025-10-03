@@ -64,7 +64,7 @@ header {
     background-color: #0000002c;
     font-family: "Domine", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 

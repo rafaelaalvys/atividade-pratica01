@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, #f5a9a9, #7081FF);
+}
+
+.caixa-principal {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(7, 7, 7, 0.075);
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}

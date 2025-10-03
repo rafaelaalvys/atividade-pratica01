@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#f5f5dc;
 }
+
 header {
     height: 80px;
     width: 100%;
@@ -9,11 +11,14 @@ header {
     justify-content: flex-start;
     align-items: top;
     gap: 240px;
-    background-color: #7e017e;
+    color: rgb(0, 0, 0);
+    background-color: #ffe6044b;
 }
 
 .logotipo {
-    width: 80px;
+    width: 70px;
+    height: 70px;
+    padding-top: 5px;
 }
 
 .lista-header ul {
@@ -30,28 +35,82 @@ header {
 }
 
 .titulo-header {
-    font-size: 20px;
+   font-size: 24px;
+    color: rgb(20, 128, 6);
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sessao-01{
+    margin-bottom: 100px;
+    margin-top: 80px;
+    background-color: #f5f5dc;
+}
+
+.texto-sessao-01 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;text-align: center;
 }
 
 .texto-sessao-01 h2 {
-    font-size: 30px;
+    font-size:30px;
 }
 
 .texto-sessao-01 p {
-    font-size: 20px;
-    line-height: 25px
+    font-size:20px;
+    line-height: 30px;
+    padding:20px;
 }
 
+.texto-sessao-01 img {
+height: 300px;
+width: 300px;
+}
 
+.sessao-02 {
+    background-color: #f5f5dc;
+}
 
-
-
+.texto-sessao-02 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 .texto-sessao-02 h2 {
-    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
 }
 
 .texto-sessao-02 p {
-    font-size: 20px;
-    line-height:30px
+    font-size:20px;
+    line-height:24px;
+    padding:20px;
 }
+
+.sessao-03 {
+display: flex;
+justify-content: start;
+flex-direction: column;
+margin-left: 20px;
+}
+
+footer {
+    background-color:#5f7f67;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, #b1e78d, #ffe6044b);
+    background-image: linear-gradient(to left, #002402cb, #14c443de,#ffff);
     display: flex;
     justify-content: center;
     align-items: center;
